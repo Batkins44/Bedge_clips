@@ -1,0 +1,207 @@
+body{
+    padding-top:50px;
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+    linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+    background-size: 40px 60px;
+}
+
+#margins{
+    padding-top:50px;
+    display:block;
+    margin-left:100px;
+    margin-right:100px;
+    padding-bottom:1000px;
+    background-color:black;
+    text-align:center;
+    
+}
+
+main{
+    display:flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+/* @media only screen and (max-width: 1650px) {
+    main {
+        flex-direction:column-reverse;
+        flex-wrap:wrap;
+    }
+  } */
+
+
+h1{
+    color:gold;
+    font-family: 'Russo One', sans-serif;
+    display:inline-block;
+    font-size:100px;
+    background-color:darkcyan;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:5px 20px 5px;
+    border:30px cadetblue inset;
+
+
+}
+
+
+h2{
+    color:white;
+    font-family: 'Russo One', sans-serif;
+    font-size:32px;
+}
+
+
+#selector{
+    border-radius:5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:500px;
+    width: 300px;
+    padding-right:30px;
+    margin-left:60px;
+    margin-top:130px;
+    border:2px gold solid;
+    align-items: center;
+}
+
+
+/* @media only screen and (max-width: 1650px) {
+    #selector {
+        flex-direction:row;
+        border:none;
+    }
+  } */
+
+#vid-selector{
+    border-radius:5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    border:2px gold solid;
+    font-size:70px;
+    width:200px;
+    height:500px;
+    margin-top:130px;
+    align-items:center;
+}
+
+/* @media only screen and (max-width: 1650px) {
+    #vid-selector {
+        flex-direction:row;
+        height:100px;
+        border:none;
+        width:300px;
+    }
+  } */
+
+.category-select{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:500px;
+}
+
+/* @media only screen and (max-width: 1650px) {
+    #goals-vids {
+        flex-direction:row;
+        height:100px;
+        width:300px;
+
+    }
+  } */
+
+
+#player{
+    margin-top:130px;
+    margin-right:60px;
+    border:6px double gold;
+}
+
+/* @media only screen and (max-width: 1650px) {
+    #player {
+        margin-top:0;
+
+    }
+  } */
+
+.rlVid{
+    height:100%;
+}
+
+@media only screen and (max-width: 1650px) {
+    .rlVid {
+        margin-top:100px;
+        height:300px;
+    }
+  }
+
+button{
+    font-family: 'Russo One', sans-serif;
+    font-size:70px;
+    color:black;
+    background-color:gold;
+    border:2px gold solid;
+    border-radius:5px 20px 5px;
+}
+
+@media only screen and (max-width: 1650px) {
+    button {
+        font-size:56px;
+    }
+  }
+
+button:hover{
+    background-color:orange;
+    color:mediumblue;
+    font-size:75px;
+}
+
+
+button:active{
+    background-color:black;
+    color:orange;
+    font-size:75px;
+}
+
+.clicked{
+    background-color:black;
+    color:orange;
+    font-size:75px;
+}
+
+
+.hide{
+    display:none;
+}
+
+
+
+
+
+.category-select{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+}
+
+
+
+/* .vid-btn{
+    border: 2px gold solid;
+    border-radius: 5px 20px 5px;
+    margin-bottom:30px;
+    margin-top:30px;
+    color: black;
+    background-color: gold;
+
+} */

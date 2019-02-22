@@ -58,6 +58,12 @@ h1{
 
 }
 
+@media only screen and (max-width: 950px) {
+    h1 {
+        font-size:60px
+    }
+  }
+
 
 h2{
     color:white;
@@ -90,6 +96,15 @@ h2{
 
     }
   }
+
+  @media only screen and (max-width: 1433px) {
+    #selector button {
+        margin:20px;
+
+    }
+  }
+
+
 
 #vid-selector{
     border-radius:5%;
@@ -148,6 +163,13 @@ h2{
     }
   }
 
+  @media only screen and (max-width: 825px) {
+    #player {
+        font-size:32px;
+        height:250px;
+    }
+  }
+
 .rlVid{
     height:100%;
 }
@@ -174,11 +196,29 @@ button{
     }
   }
 
+  @media only screen and (max-width: 825px) {
+    button {
+        font-size:32px;
+    }
+  }
+
 button:hover{
     background-color:orange;
     color:mediumblue;
     font-size:75px;
 }
+
+@media only screen and (max-width: 1433px) {
+    button:hover {
+        font-size:65px;
+    }
+  }
+
+  @media only screen and (max-width: 825px) {
+    button:hover {
+        font-size:40px;
+    }
+  }
 
 
 button:active{
@@ -187,11 +227,35 @@ button:active{
     font-size:75px;
 }
 
+@media only screen and (max-width: 1433px) {
+    button:active {
+        font-size:65px;
+    }
+  }
+
+  @media only screen and (max-width: 825px) {
+    button:active {
+        font-size:40px;
+    }
+  }
+
 .clicked{
     background-color:black;
     color:orange;
     font-size:75px;
 }
+
+@media only screen and (max-width: 1433px) {
+    .clicked {
+        font-size:65px;
+    }
+  }
+
+  @media only screen and (max-width: 825px) {
+    .clicked {
+        font-size:40px;
+    }
+  }
 
 
 .hide{
@@ -201,7 +265,12 @@ button:active{
 
 
 
-
+@media only screen and (max-width: 825px) {
+    .vid-btn {
+        width:100px;
+        margin:10px;
+    }
+  }
 
 
 

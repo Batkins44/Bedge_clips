@@ -21,6 +21,12 @@ body{
     
 }
 
+@media only screen and (max-width: 1433px) {
+    #margins {
+        padding-bottom:500px;
+    }
+  }
+
 main{
     display:flex;
     width: 100%;
@@ -28,12 +34,13 @@ main{
     justify-content:space-around;
 }
 
-/* @media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1433px) {
     main {
-        flex-direction:column-reverse;
+        flex-direction:column;
         flex-wrap:wrap;
+        align-items:center;
     }
-  } */
+  }
 
 
 h1{
@@ -74,12 +81,15 @@ h2{
 }
 
 
-/* @media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1433px) {
     #selector {
         flex-direction:row;
         border:none;
+        margin:20px;
+        height:100px;
+
     }
-  } */
+  }
 
 #vid-selector{
     border-radius:5%;
@@ -94,14 +104,16 @@ h2{
     align-items:center;
 }
 
-/* @media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1433px) {
     #vid-selector {
         flex-direction:row;
         height:100px;
         border:none;
         width:300px;
+        margin:20px;
+
     }
-  } */
+  }
 
 .category-select{
     display:flex;
@@ -110,14 +122,16 @@ h2{
     height:500px;
 }
 
-/* @media only screen and (max-width: 1650px) {
-    #goals-vids {
+
+@media only screen and (max-width: 1433px) {
+    .category-select {
         flex-direction:row;
         height:100px;
         width:300px;
+        
 
     }
-  } */
+  }
 
 
 #player{
@@ -126,23 +140,24 @@ h2{
     border:6px double gold;
 }
 
-/* @media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1433px) {
     #player {
-        margin-top:0;
+        border:none;
+        margin:0;
 
     }
-  } */
+  }
 
 .rlVid{
     height:100%;
 }
 
-@media only screen and (max-width: 1650px) {
+/* @media only screen and (max-width: 1650px) {
     .rlVid {
         margin-top:100px;
         height:300px;
     }
-  }
+  } */
 
 button{
     font-family: 'Russo One', sans-serif;
@@ -153,7 +168,7 @@ button{
     border-radius:5px 20px 5px;
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1433px) {
     button {
         font-size:56px;
     }
@@ -187,12 +202,7 @@ button:active{
 
 
 
-.category-select{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
 
-}
 
 
 

@@ -27,6 +27,12 @@ body{
     }
   }
 
+  @media only screen and (max-width: 700px) {
+    #margins {
+        margin:0
+    }
+  }
+
 main{
     display:flex;
     width: 100%;
@@ -64,12 +70,25 @@ h1{
     }
   }
 
+  @media only screen and (max-width: 700px) {
+    h1 {
+        font-size:50px;
+        border: 15px cadetblue inset;
+    }
+  }
+
 
 h2{
     color:white;
     font-family: 'Russo One', sans-serif;
     font-size:32px;
 }
+
+@media only screen and (max-width: 700px) {
+    h2 {
+        font-size:16px;
+    }
+  }
 
 
 #selector{
@@ -104,6 +123,13 @@ h2{
     }
   }
 
+  @media only screen and (max-width: 70px) {
+    #selector button {
+        margin:10px;
+
+    }
+  }
+
 
 
 #vid-selector{
@@ -126,6 +152,13 @@ h2{
         border:none;
         width:300px;
         margin:20px;
+
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    #vid-selector {
+        margin:10px;
 
     }
   }

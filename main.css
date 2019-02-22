@@ -166,6 +166,15 @@ h2{
     }
   }
 
+  @media only screen and (max-width: 700px) {
+    #vid-selector button {
+        margin:2px;
+        font-size:24px;
+
+
+    }
+  }
+
 .category-select{
     display:flex;
     flex-direction:column;
@@ -302,8 +311,8 @@ button:active{
 
 @media only screen and (max-width: 825px) {
     .vid-btn {
-        width:100px;
-        margin:10px;
+        width:30px;
+        margin:2px;
     }
   }
 
